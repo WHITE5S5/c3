@@ -1,0 +1,809 @@
+
+
+
+
+
+/*   Navegador   */
+
+
+
+#img__titulo {
+    width: 50px;
+    height: 50px;
+}
+
+#img__tpt {
+    width: 160px;
+    height: 100px;
+}
+
+#navegador {
+    display:start;
+}
+
+#navegador__2 {
+    display:none;
+    
+}
+
+#navegador__inf {
+    display:start;
+}
+
+#navegador__inf2 {
+    display:none;
+}
+
+
+#li__a {
+    color:white;
+    text-decoration: none;
+}
+
+#i {
+    color:white;
+}
+
+#i2 {
+    color:white;
+    margin-left:20px;
+}
+
+#li__a:hover {
+    color:grey;
+}
+
+#i:hover {
+    color:grey;
+}
+
+#i2:hover {
+    color:grey;
+}
+
+#li__ab {
+    color:white;
+    text-decoration: none;
+}
+
+#li__ab:hover {
+    color:grey;
+    
+}
+
+#li__ab:hover .navegador__inf2 {
+    left:0px;
+    
+}
+
+
+
+
+
+
+.div__b {
+    color:#384945;
+    position: relative;
+}
+
+
+
+.div__b::before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 1.5px;
+        background-color:red;
+        position:absolute;
+        left:0;
+        bottom: 0;
+        transition: all .5s;
+        
+}
+
+.div__b:hover::before {
+    width: 100%;
+    cursor:default;
+}
+
+/* apartado responsive */
+
+
+
+#li__a2 {
+    color:white;
+    text-decoration: none;
+
+
+}
+
+#li__a2:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px) {
+
+        #navegador {
+            display:none;
+        }
+
+        #navegador__2 {
+            display:block;
+            background-color:#384945;
+        }
+
+
+        #i2:hover #navegador__inf2 {
+            left:0;
+        }
+
+
+
+        #navegador__inf {
+            display:none;
+        }
+
+        #navegador__inf2 {
+            position:absolute;
+            left:-1000px;
+            display:block;
+            background-color:#384945;
+            height: 100vh;
+            transition:all 1.5s;
+            delay:1s
+
+            
+        }
+
+        
+
+}
+
+@media only screen and (max-width:500px) {
+    #img__tpt {
+        width:100px ;
+        height:60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*          catalogo            */
+
+
+
+.carrousel__box-1 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-color:#C64343;
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition:all 0.3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box0 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/11/banner-harry-potter.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: right, bottom ;
+    background-attachment:initial;
+    transition:all 0.3s;
+    transition-timing-function:ease-out;
+
+}
+
+
+
+.carrousel__box1 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/dragon-ball.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition:all 0.3s;
+    transition-timing-function:ease-out;
+
+}
+
+
+.carrousel__box2 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/one-piece.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box3 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/kimetsu-1.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box4 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/my-hero-academia-2.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box5 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/harry-potter.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box6 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/sword-art.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+.carrousel__box7 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.banpresto.es/wp-content/uploads/2020/10/naruto-1.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+    
+
+}
+
+
+.carrousel__box8 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-image:url(https://www.cinemascomics.com/wp-content/uploads/2020/06/pokemon-pikachu.jpg);
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+
+.carrousel__box9 {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    transform: skew(-15deg);
+    background-color:#C64343;
+    background-size:cover;
+    background-clip:content-box;
+    background-origin:content-box;
+    background-position: center, bottom ;
+    background-attachment:initial;
+    transition: all .3s;
+    transition-timing-function:ease-out;
+
+}
+
+
+.texto__imagen-1 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+    
+}
+
+.texto__imagen0 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+    
+}
+
+.texto__imagen1 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+    
+}
+
+.texto__imagen2
+ {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen3 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen4 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen5 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen6 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen7 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen8 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+.texto__imagen9 {
+    transition: all .3s;
+    transition-timing-function:ease-out;
+}
+
+
+
+
+.carrousel__papa {
+    position:relative;
+    padding-top:0px;
+    padding-bottom: 450px;
+    width:100%;
+    overflow: hidden;
+    
+ 
+
+    
+}
+
+
+
+
+.carrousel-1 {
+    position:absolute;
+    top:15%;
+    left:-18.15%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+    
+    
+    
+}
+
+.carrousel0 {
+    position:absolute;
+    top:15%;
+    left:-6.15%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+    
+    
+    
+    
+}
+
+.carrousel1 {
+    position:absolute;
+    top:15%;
+    left:6%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+    
+    
+    
+    
+}
+
+.carrousel2 {
+    position:absolute;
+    top:15%;
+    left:18.15%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;    
+    animation-timing-function: ease-in;
+    
+}
+
+.carrousel3 {
+    position:absolute;
+    top:15%;
+    left:30.30%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;  
+    animation-timing-function: ease-in;  
+   
+}
+
+.carrousel4 {
+    position:absolute;
+    top:15%;
+    left:42.45%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in;    
+    
+}
+
+.carrousel5 {
+    position:absolute;
+    top:15%;
+    left:54.60%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;    
+    animation-timing-function: ease-in;
+    
+}
+.carrousel6 {
+    position:absolute;
+    top:15%;
+    left:66.75%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;   
+    animation-timing-function: ease-in; 
+   
+}
+
+.carrousel7 {
+    position:absolute;
+    top:15%;
+    left:78.90%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;    
+    animation-timing-function: ease-in;
+}
+
+
+.carrousel8 {
+    position:absolute;
+    top:15%;
+    left:91.05%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;    
+    animation-timing-function: ease-in;
+   
+}
+
+
+.carrousel9 {
+    position:absolute;
+    top:15%;
+    left:103.20%;
+    animation: cambio 10s infinite alternate;
+    animation-play-state: running;   
+    animation-timing-function: ease-in; 
+   
+}
+
+
+
+
+.carrousel-1:hover .carrousel__box-1{
+    transform: scale(1.5,1.5) skew(-15deg);
+ }
+
+
+.carrousel0:hover .carrousel__box0{
+    transform: scale(1.5,1.5) skew(-15deg);
+ }
+
+
+.carrousel1:hover .carrousel__box1{
+   transform: scale(1.5,1.5) skew(-15deg);
+}
+ 
+.carrousel2:hover .carrousel__box2{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel3:hover .carrousel__box3{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel4:hover .carrousel__box4{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel5:hover .carrousel__box5{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel6:hover .carrousel__box6{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel7:hover .carrousel__box7{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel8:hover .carrousel__box8{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+.carrousel9:hover .carrousel__box9{
+    transform: scale(1.5,1.5) skew(-15deg);
+}
+
+
+    
+.carrousel-1:hover .texto__imagen-1 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel0:hover .texto__imagen0 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel1:hover .texto__imagen1 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel2:hover .texto__imagen2 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel3:hover .texto__imagen3 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel4:hover .texto__imagen4 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel5:hover .texto__imagen5 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel6:hover .texto__imagen6 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel7:hover .texto__imagen7 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+.carrousel8:hover .texto__imagen8 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+
+.carrousel9:hover .texto__imagen9 {
+    transform: scale(1.5,1.5) translate(0,45px);
+}
+
+
+
+
+
+
+
+@keyframes cambio {
+
+    0% {transform:translate(350px,0px);}
+
+    10% {transform:translate(350px,0px);}
+
+    15% {transform:translate(350px,0px);}
+
+    20% {transform:translate(350px,0px);}
+
+    25% {transform:translate(250px,0px);}
+
+    30% {transform:translate(250px,0px);}
+
+    35% {transform:translate(150px,0px);}
+
+    40% {transform:translate(150px,0px);}
+
+    45% {transform:translate(50px,0px);}
+
+    50% {transform:translate(50px,0px);}
+
+    55% {transform:translate(-50px,0px);}
+
+    60% {transform:translate(-50px,0px);}
+
+    65% {transform:translate(-150px,0px);}
+
+    70% {transform:translate(-150px,0px);}
+
+    75% {transform:translate(-250px,0px);}
+
+    80% {transform:translate(-250px,0px);}
+
+    85% {transform:translate(-350px,0px);}
+
+    90% {transform:translate(-350px,0px);}
+
+    95% {transform:translate(-350px,0px);}
+   
+    100% {transform:translate(-350px,0px);}
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
